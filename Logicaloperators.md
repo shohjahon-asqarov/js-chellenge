@@ -18,4 +18,11 @@ Bu operator qiymatni booleanga o'zgartiradi.
 !!"non-empty string" // true === Boolean("non-empty string")
 !!null // false === Boolean(null)
 
-<!-- end time 12:10 21.03.2024 -->
+?? nulish
+null va undefined ga tekshiradi agar qiymat null yoki undefined ga teng bo'lmasa keyingi qiymatni oladi
+a ?? b
+if(a !== null && a !== undefined){
+    return b
+} 
+
+<!-- end time 12:15 21.03.2024 -->
