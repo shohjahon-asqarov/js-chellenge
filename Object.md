@@ -65,7 +65,7 @@ clone[key] = user[key];
 // 2
 Object.assign(clone, user)
 
-// ... spreat operator
+// ... spread operator
 borqali ham clone olish mumkun lekin nested keylarda xatolikka olib keladi yani chuqur copy qilaydi.
 let user = {
 name: "John",
