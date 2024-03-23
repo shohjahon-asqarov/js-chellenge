@@ -9,6 +9,7 @@ var: function scope , hoistinda ishlaydi lekin undefined qaytaradi , redeclaring
 
 let: block scope , hoistinda ishlaydi lekin error qaytaradi , qiymay berilgandan keyin u qiymatni o'zgartirish mumkun.
 
+
 const: block scope , hoistinda ishlaydi lekin error qaytaradi , qiymay berilgandan keyin u qiymatni o'zgartirish mumkun emas.
 
 <!-- end time 4:20 20.03.2024 -->
